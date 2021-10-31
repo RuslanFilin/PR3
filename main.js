@@ -1,14 +1,14 @@
 // first task
-var firstRow = prompt('Введите первую строку')
-var secondRow = prompt('Введите вторую строку')
-var symbol = prompt('Введите букву');
+let firstRow = prompt('Введите первую строку')
+let secondRow = prompt('Введите вторую строку')
+let symbol = prompt('Введите букву');
 
-var fcount = 0, scount = 0;
+let fcount = 0, scount = 0;
 
 // second task
-var Phone = prompt('Введите номер телефона');
-var formPhone ='';
-var newPhone ='';
+let Phone = prompt('Введите номер телефона');
+let formPhone ='';
+let newPhone ='';
 
 // first task
 function getRow(el1,el2){
